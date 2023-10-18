@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Einführung – Forms + JS Level-1_3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <form onsubmit="return false">
+        <label for="age1">Alter 1</label>
+        <input type="number" name="age1" id="age1" placeholder="50">
+        <label for="age1">Alter 2</label>
+        <input type="number" name="age2" id="age2" placeholder="50">
+        <button type="button" onclick="differenceAge()">Berechne</button>
+    </form>
+    <div id="output"></div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
