@@ -12,7 +12,7 @@ function differenceAge() {
     const output = document.querySelector('#output');
     output.style.display = 'block';
 
-    const erg = age1.value - age2.value;
+    const erg = Number(age1.value) - Number(age2.value);
 
     output.textContent = `Die Differenz beträgt ${Math.abs(erg)} Jahre.`;
 }
