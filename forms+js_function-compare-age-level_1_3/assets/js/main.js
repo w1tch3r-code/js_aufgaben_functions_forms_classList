@@ -14,5 +14,5 @@ function differenceAge() {
 
     const erg = age1.value - age2.value;
 
-    output.innerHTML = `Die Differenz beträgt ${erg} Jahre.`;
+    output.textContent = `Die Differenz beträgt ${Math.abs(erg)} Jahre.`;
 }
